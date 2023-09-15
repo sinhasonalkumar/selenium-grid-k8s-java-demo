@@ -40,5 +40,5 @@ kubectl get pods,svc
 # Setp-8 Run this command for running selenium grid java test from IDE
 
 ```
-k port-forward svc/selenium-hub 4444:4444
+kubectl port-forward svc/selenium-hub 4444:4444
 ```
